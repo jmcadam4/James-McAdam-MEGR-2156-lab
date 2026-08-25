@@ -34,10 +34,10 @@ Each stage builds on the last. Nothing is wasted.
 
 ---
 
-## my Machines This Semester
+## My Machines This Semester
 
 **FDM — Prusa Core One**
-Fused Deposition Modeling. Builds parts layer by layer from thermoplastic filament. Fast, accessible, and ideal for functional prototypes. my primary machine for the first half of the semester. Design considerations: layer orientation, overhang angles, support structures, wall thickness, and infill.
+Fused Deposition Modeling. Builds parts layer by layer from thermoplastic filament. Fast, accessible, and ideal for functional prototypes. My primary machine for the first half of the semester. Design considerations: layer orientation, overhang angles, support structures, wall thickness, and infill.
 
 **Laser Cutter**
 Precision cutting and engraving of flat sheet material. Design considerations: kerf width, joint clearance, material grain direction, and how two-dimensional geometry creates three-dimensional structure.
