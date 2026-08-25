@@ -1,5 +1,7 @@
 # MEGR 2156 — Design Projects I Laboratory
 
+![MEGR 2156-7 Title](Front Photo.jpg)
+
 > **Engineering is the art of making decisions I can defend.**
 
 **Welcome to my design portfolio.**
