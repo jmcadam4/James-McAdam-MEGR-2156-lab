@@ -17,3 +17,7 @@ Source: <a href="https://www.snapmaker.com/blog/3d-printer-wall-thickness/">Snap
 **Teammate Research**
 
 A lot of materials have entered the market over the last few years, while it's still limited to plastics and plastic fiber blends for the most part, there are a lot to choose from. Looking into product requirements allows you to see what filaments are viable.
+
+**Prusa Slicer: Grumpy Cat**
+
+When I went on printables.com, a little grumpy cat popped out at me. I had to have it, so I downloaded it as an STL and brought it over to the prusa slicer. Once it was there I scaled it to roughly 1"x1"x1" and set the print layer height to .15 mm to get some of the fine details into this small of a part.
