@@ -21,8 +21,8 @@ A lot of materials have entered the market over the last few years, while it's s
 **Prusa Slicer: Grumpy Cat**
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
-  <img src="Prusa slicer buildplate.jpg" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="Prusa Slicer Side Panel.jpg" alt="export panel" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Prusa slicer buildplate.png" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Prusa Slicer Side Panel.png" alt="export panel" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
 When I went on printables.com, a little grumpy cat popped out at me. I had to have it, so I downloaded it as an STL and brought it over to the prusa slicer. Once it was there I scaled it to roughly 1"x1"x1" and set the print layer height to .15 mm to get some of the fine details into this small of a part. Looking at the first layer surface, I decided it didn't need supports. The angles weren't bad layer to layer and with such a small part, supports sometimes do more harm than good. This print will take 28 minutes and use 283 grams of filament.
