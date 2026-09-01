@@ -18,7 +18,7 @@ Source: <a href="https://www.snapmaker.com/blog/3d-printer-wall-thickness/">Snap
 
 A lot of materials have entered the market over the last few years, while it's still limited to plastics and plastic fiber blends for the most part, there are a lot to choose from. Looking into product requirements allows you to see what filaments are viable.
 
-**Prusa Slicer: Grumpy Cat**
+**Prusa Slicer: Grumpy Cat -> Lego Brick**
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="Prusa slicer buildplate.png" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -32,5 +32,10 @@ When I went on printables.com, a little grumpy cat popped out at me. You can fin
   <img src="Prusa Settings Lego.png" alt="export panel" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I've replicated his process on my computer to show how it went. It's almost entirely the same as my previous part, still no supports and still PLA.
+Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I've replicated his process on my computer to show how it went. It's almost entirely the same as my previous part, still no supports and still PLA. These three pieces have a print time of 18 minutes now, much more manageable within a class period. This design had the added benefit of not needing to scale down as they were small enough. The best build orientation for them was sitting with the open end down. This seems counterintuitive but in order for the pieces to snap together, we needed a good quality finish on the top, not the bottom. Now that the settings are in order, we downloaded it using the export g code button shown below.
+
+
+
+
+
 
