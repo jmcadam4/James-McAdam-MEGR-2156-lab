@@ -25,9 +25,20 @@ A lot of materials have entered the market over the last few years, while it's s
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="Prusa slicer buildplate.png" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
   <img src="Prusa Slicer Side Panel.png" alt="export panel" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="listing cat.png" alt="listing cat" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
 When I went on printables.com, a little grumpy cat popped out at me. You can find it <a href="https://www.printables.com/model/1279051-grumpy-cat-figurine">here</a>. I had to have it, so I downloaded it as an STL and brought it over to the prusa slicer. Once it was there I scaled it to roughly 1"x1"x1" and set the print layer height to .15 mm to get some of the fine details into this small of a part. Looking at the first layer surface, I decided it didn't need supports. The angles weren't bad layer to layer and with such a small part, supports sometimes do more harm than good. This print will take 28 minutes and use 283 grams of filament. I had to go back in and change the filament from PLA to PETG, even though that change is not reflected in the images above it is in the file.
+
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="lego listing.png" alt="lego listing" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="download lego.png" alt="download lego" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I found <a href="https://www.printables.com/model/424901-lego-brick-2x1/files">this</a> 2x1 lego brick on printibles.com, clicked the download button, and sent it his way via email. We left almost all of the settings as they were for this print apart from adding one wall (total of three) and changing the layer height to .2 mm on high speed mode. 
+
+
+### Preprocessing
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="prusa bed lego.png" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -35,15 +46,6 @@ When I went on printables.com, a little grumpy cat popped out at me. You can fin
 </div>
 
 <img src="export button.png" alt="export" style="width:50%; height:auto; display:block; margin:1em 0; border:1px solid rgba(0,0,0,.12); border-radius:4px;">
-
-Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I found <a href="https://www.printables.com/model/424901-lego-brick-2x1/files">this</a> 2x1 lego brick on printibles.com, clicked the download button, and sent it his way. We left almost all of the settings as they were for this print apart from adding one wall (total of three) and changing the layer height to .2 mm on high speed mode. 
-
-<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
-  <img src="lego listing.png" alt="lego listing" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="download lego.png" alt="download lego" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-</div>
-
-### Preprocessing
 
 I've replicated the slicing process on my computer to show how it went. It's almost entirely the same as my previous part, still no supports and still PLA. These three pieces have a print time of 18 minutes now, much more manageable within a class period. This design had the added benefit of not needing to scale down as they were small enough. The best build orientation for them was sitting with the open end down. This seems counterintuitive but in order for the pieces to snap together, we needed a good quality finish on the top, not the bottom. Now that the settings are in order, we downloaded it using the export g code button shown above.
 
