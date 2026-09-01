@@ -34,9 +34,14 @@ When I went on printables.com, a little grumpy cat popped out at me. You can fin
 
 Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I've replicated his process on my computer to show how it went. It's almost entirely the same as my previous part, still no supports and still PLA. These three pieces have a print time of 18 minutes now, much more manageable within a class period. This design had the added benefit of not needing to scale down as they were small enough. The best build orientation for them was sitting with the open end down. This seems counterintuitive but in order for the pieces to snap together, we needed a good quality finish on the top, not the bottom. Now that the settings are in order, we downloaded it using the export g code button shown below.
 
-<img src="export button.png" alt="export" style="width:100%; height:auto; display:block; margin:1em 0; border:1px solid rgba(0,0,0,.12); border-radius:4px;">
+<img src="export button.png" alt="export" style="width:50%; height:auto; display:block; margin:1em 0; border:1px solid rgba(0,0,0,.12); border-radius:4px;">
 
+Now that we had our g-code, we were ready to print. We took the usb thumb drive over to the Prusa, plugged it in, and pressed print. The most important part of the print is often the first layer so it was a massive sigh of relief when it printed well. I didn't get good pictures from the print we did in class as I got swept away in conversation with an instructor talking about the other additive manufacturing lab's 3d printers and their capabilities so I reprinted the legos at home in order to show how it went in this writeup. The images below show the print bed and extruder temps that were used as well as what a good first layer looked like for this part.
 
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Print temp.jpg" alt="print temp" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="first layer.jpg" alt="first layer" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
 
 
 
