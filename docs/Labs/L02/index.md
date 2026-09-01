@@ -44,8 +44,8 @@ Unfortunately even with these changes, the print time for my group of three was 
 Now that we had our g-code, we were ready to print. We took the usb thumb drive over to the Prusa, plugged it in, and pressed print. The most important part of the print is often the first layer so it was a massive sigh of relief when it printed well. I didn't get good pictures from the print we did in class as I got swept away in conversation with an instructor talking about the other additive manufacturing lab's 3d printers and their capabilities so I reprinted the legos at home in order to show how it went in this writeup. The images above show the print bed and extruder temps that were used as well as what a good first layer looked like for this part.
 
 <video
-  src="timelapse lego.mp4"
-  poster="first layer.jpg"
+  src="lego timelapse.mp4"
+  poster="First Layer.jpg"
   controls muted loop playsinline
   preload="metadata"
   width="960">
