@@ -1,26 +1,26 @@
 # L2 – Print Something Small
 
-**DfAM Consideration**
+### DfAM Consideration
 
 FdAM requires minimal overhangs and ideally a flat surface to print off of. Overhangs, at the least, slow the print down and at the worst they can cause failures and stringing. Flat surfaces ensure proper bed adhesion and a solid first layer.
 
 Source: <a href="https://chateletusa.com/pages/design-for-additive-manufacturing?srsltid=AfmBOor72hsCoAdfF4PYLkn-TY1_A2-mfuZrSsL8z1z4MwXsIdBwqf0z">Chatele USA</a>
 
-**FDM Consideration pt. 2**
+### FDM Consideration pt. 2
 
-Infill vs Walls
+#### Infill vs Walls
 
 Many people opt to increase infill alone when trying to make stronger prints. This sounds right intuitively however a part of the configuration that is sometimes overlooked that helps greatly to achieve this goal is wall loops. 2 walls is sufficient for casual prints, 3-4 for watertight or strong prints, and sometimes more if you need extra strength. Increasing wall loops will often strengthen the product more per additional gram of filament than infill, sometimes it can be up to two times as efficient.
 
 Source: <a href="https://www.snapmaker.com/blog/3d-printer-wall-thickness/">Snapmaker</a>
 
-**Teammate Research**
+### Teammate Research
 
 A lot of materials have entered the market over the last few years, while it's still limited to plastics and plastic fiber blends for the most part, there are a lot to choose from. Looking into product requirements allows you to see what filaments are viable.
 
 **Prusa Slicer: Grumpy Cat -> Lego Brick**
 
-## Download
+### Download
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="Prusa slicer buildplate.png" alt="buildplate" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -43,11 +43,11 @@ Unfortunately even with these changes, the print time for my group of three was 
   <img src="download lego.png" alt="download lego" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-## Preprocessing
+### Preprocessing
 
 I've replicated the slicing process on my computer to show how it went. It's almost entirely the same as my previous part, still no supports and still PLA. These three pieces have a print time of 18 minutes now, much more manageable within a class period. This design had the added benefit of not needing to scale down as they were small enough. The best build orientation for them was sitting with the open end down. This seems counterintuitive but in order for the pieces to snap together, we needed a good quality finish on the top, not the bottom. Now that the settings are in order, we downloaded it using the export g code button shown above.
 
-## Printing
+### Printing
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="Print temp.jpg" alt="print temp" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -78,6 +78,6 @@ It took just minutes to get these parts made and costs about 15 cents when payin
 
 Once all is said and done, we had final parts come off of the printer ready for use. You can see there are some small imperfections but it is good enough for this test with small print speed adjustments needed to get it perfect.
 
-## Lessons Learned
+### Lessons Learned
 
 In the making of this part, I learned that not all overhangs need support if it's over a small enough gap. I also learned that Prusa's Core One printers are really good, I've only used more dated models of theirs but I was impressed by the features and build quality. It was nice we used a material like PLA because I don't think there is any humidity control built into the side pocket where the filament sits and PLA is pretty resistant to moisture. This lab also was my first experience with the Prusa slicer. I liked that you could control the amount of settings visible to change with the experience level at the top right. Being able to see just the necessary fields for an easy off the shelf print while also being able to toggle on manual controls when printing a more delicate part is a game changer.
