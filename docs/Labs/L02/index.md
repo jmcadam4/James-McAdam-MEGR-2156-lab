@@ -43,10 +43,14 @@ Unfortunately even with these changes, the print time for my group of three was 
 
 Now that we had our g-code, we were ready to print. We took the usb thumb drive over to the Prusa, plugged it in, and pressed print. The most important part of the print is often the first layer so it was a massive sigh of relief when it printed well. I didn't get good pictures from the print we did in class as I got swept away in conversation with an instructor talking about the other additive manufacturing lab's 3d printers and their capabilities so I reprinted the legos at home in order to show how it went in this writeup. The images above show the print bed and extruder temps that were used as well as what a good first layer looked like for this part.
 
-<video autoplay muted loop playsinline width="800">
-  <source src="timelapse lego.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</vids>
+<video
+  src="timelapse lego.mp4"
+  poster="first layer.jpg"
+  controls muted loop playsinline
+  preload="metadata"
+  width="960">
+  Your browser doesn't support HTML5 video.
+</video>
 
 From there it was time to let the print run. I took a timelapse of my print at home, I had a slightly incorrect part cooling fan speed so the top layers with no supports printed somewhat poorly in the video, however they were much smoother during our in lab print so supports were indeed not needed with a well calibrated printer. It took just minutes to get these parts made and costs about 15 cents when paying retail prices for filament. 3 bricks at 5 cents a piece leaves a nice margin with an average brick in a set costing 15 cents itself. With a full plate of 4x3 flat pieces, it would take 5 hours and 33 minutes to print 98 pieces while using 115 grams of filament. Assuming you're using high quality PLA filament at 20 dollars per kg, the per unit cost would be 2.3 cents. With a 10 cent profit margin at the low end (not 12.5 cents using the previously mentioned 15 cent price because of electricity and maintenance expenses), this part would make lego $1.78 per hour and return parts with little to no post processing needed. If print bed swaps were automated and they ran around the clock, a Prusa Core One would pay for itself in just three and a half weeks. Compared to a mold this is still not as efficient for a corporation as large as lego but it shows you that 3D printed parts are nearing viability for small bath production.
 
