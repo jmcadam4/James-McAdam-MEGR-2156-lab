@@ -59,7 +59,7 @@ From there it was time to let the print run. I took a timelapse of my print at h
   <img src="lego top.jpg" alt="lego top" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-
+Once all is said and done, I had a final part come off of the printer ready for use. You can see there are some small imperfections but it is nearly perfect.
 
 
 
