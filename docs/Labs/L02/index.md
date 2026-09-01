@@ -36,7 +36,7 @@ When I went on printables.com, a little grumpy cat popped out at me. You can fin
 
 <img src="export button.png" alt="export" style="width:50%; height:auto; display:block; margin:1em 0; border:1px solid rgba(0,0,0,.12); border-radius:4px;">
 
-Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I found this 2x1 lego brick on printibles.com, clicked the download button, and sent it his way. We left almost all of the settings as they were for this print apart from adding one wall (total of three) and changing the layer height to .2 mm on high speed mode. 
+Unfortunately even with these changes, the print time for my group of three was too long so we decided to print pieces of a Lego snail instead. Joel Holder was our slicer, we sent him our files and he sliced it to go to the printer. I found Source: <a href="https://www.printables.com/model/424901-lego-brick-2x1/files">this</a> 2x1 lego brick on printibles.com, clicked the download button, and sent it his way. We left almost all of the settings as they were for this print apart from adding one wall (total of three) and changing the layer height to .2 mm on high speed mode. 
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="lego listing.png" alt="lego listing" style="flex:1 1 0; min-width:0; height:340px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
