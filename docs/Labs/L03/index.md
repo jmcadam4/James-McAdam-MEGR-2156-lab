@@ -17,7 +17,7 @@
 For some reason when we were tasked with designing a small part to be printed, my mind went to a snow man. I started by selecting a plane and drawing a circle, split it in half, then revolved it around the central axis to make a sphere. I repeated this step with smaller circles and offset planes two more times to make a 3 ball snowman. I then created another plane a few mm from the "face" of the top ball. I couldn't get the wrap feature to work on a sphere as I have before on a cylinder so I just negative extruded straight back from the plane to make the eyes and nose hole. I was going to add a carrot nose straight on however I grew questionably curious about the possibility of screwing in the nose and how small threads could be. Because of this I made a screw in nose which I was hesitant would work come time to print but curious enough to try it.
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
-  <img src="Screenshot 2026-09-03 132330.png" alt="Snowman, carrot nose, and cardholder parts modeled in CAD" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-09-08 103929.png" alt="Snowman, carrot nose, and cardholder parts modeled in CAD" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
   <img src="Screenshot 2026-09-08 094130.png" alt="Sketch of the 0.5 mm diameter thread profile for the screw-in nose" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
@@ -52,6 +52,7 @@ Once the part was made, I moved my part, as well as Juan's, over to Prusa Slicer
   <img src="Screenshot 2026-09-03 132410.png" alt="Perimeters set to 3 for wall count" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
   <img src="Screenshot 2026-09-03 132422.png" alt="Infill set to 25% fill density with gyroid pattern" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
   <img src="Screenshot 2026-09-03 132433.png" alt="Outer brim added at 3mm width" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+    <img src="Screenshot 2026-09-03 132330.png" alt="parts on plate" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
 ## Print
