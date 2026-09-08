@@ -24,6 +24,8 @@ For some reason when we were tasked with designing a small part to be printed, m
 
 ## Research
 
+More infill leads to stronger but heavier parts. Infill helps stiffen the part but also adds greatly to print time if the percentage goes too high. Percentage of infill is a percentage of volume filled by filament with the supports being created.
+
 ### Infill 1: gyroid
 
 <img src="gyroidfinal-2048x1536.jpg" alt="Gyroid infill pattern" style="width:45%; min-width:260px; height:auto; display:block; margin:1em 0; border:1px solid rgba(0,0,0,.12); border-radius:4px;">
@@ -56,6 +58,8 @@ rectilinear infill is the standard for high infill prints. It switches the direc
 </div>
 
 Once the part was made, I moved my part, as well as Juan's, over to Prusa Slicer and started changing settings. The first thing I did was set the layer height to .1 mm on FAST DETAIL mode. I did this in order to increase the chances that the nose threads translate cleanly. We set the filament to PETG next as printer 2 that we were using was already set up with it in the extruder. We kept infill percentage relatively low at 25 percent however we changed the infill type to gyroid as our parts had different objectives and gyroids ability to support along multiple axis helped ease our nerves about those differences. We also bumped the wall count from 2 to 3 to add a little bit more strength to the fins in Juan's card holder and in turn also making the snow man a little bit stronger. We had the option to make different print settings for each part however we decided that having a consistent print would be more valuable than using perfectly ideal settings for each individual one. The last setting we changed was adding brims. By adding these brims, we were able to get stronger bed adhesion for every part but it was especially important for the nose of the snow man as it was supper skinny with poor bed contact area. 
+
+The Build orientations for our parts were a given for us as I designed my part with a flat back to print on and juans had a full flat base to put face down on the build plate. Both of these orientations led to there being no overhang. We also both designed our parts to the scale set in the lab objectives so there was no need to resize them in the slicer. 
 
 
 ## Print
