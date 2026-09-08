@@ -57,6 +57,14 @@ Once the part was made, I moved my part, as well as Juan's, over to Prusa Slicer
 
 ## Print
 
+<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="IMG_4893.jpg" alt="pic1" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="IMG_4894.jpg" alt="pic2" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="IMG_4895.jpg" alt="pic3" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="IMG_4896.jpg" alt="pic4" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+    <img src="IMG_4897.jpg" alt="pic5" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
 We exported our g-code to the thumb drive for printer 2, plugged it in, and started the print. During class time we waited for the bed to heat up and the heat to distribute evenly then saw a solid first layer. Once this was seen and good, I went to get some food while the rest of the hour twenty print finished. When I returned the parts were nearly complete. All parts finished in decent quality however as I suspected the threads we're too tight of a fit to work. The error along the x-y axis was too great for the nose to fit into the hole meant for it. I still had a good quality snowman at the end of the day but it looked like a deer had stopped by and got it's nose. 
 
 ## Lessons Learned
