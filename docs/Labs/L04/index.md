@@ -40,7 +40,7 @@ Once printed, the part was ready to test. The nubs measured as follows:
 - .175 in measured as .165 in
 - .125 in measured as .115 in
 
-the error was consistent across the range at .011 to .009 in of error. I want to say this is due to shrinkage as the part cools but I am unsure as the bigger nubs would have shrunk the same amount as the smaller nubs. Regardless, for PETG, you can assume this printer will have a outer diameter error of around .010 inches. looking at the datasheet https://after-support.flashforge.jp/uploads/datasheet/tds/PETG_TDS_EN.pdf, you can see there is minimal information about dimensional accuracy but it does say PETG is has stable dimensions which makes me think filaments that are harder to print with will have more issues and error will be harder to fully and predictably account for. From what I read in a Protolabs article, higher temperature filaments are at higher risk of warping, "Thermoplastics that require a higher print temperature are more at risk. Adding a radius on the bottom edge in contact with the build plate or a brim is recommended. Shrinkage usually occurs in the 0.2 - 1% range depending on the material." FDM is also one of the least accurate of 3d printing techniques with many resin printers being able to achieve finer details (lasers and LEDs are a lot easier to position than an extruder).
+the error was consistent across the range at .011 to .009 in of error. I want to say this is due to shrinkage as the part cools but I am unsure as the bigger nubs would have shrunk the same amount as the smaller nubs. Regardless, for PETG, you can assume this printer will have a outer diameter error of around .010 inches. looking at the Source: <a href="https://after-support.flashforge.jp/uploads/datasheet/tds/PETG_TDS_EN.pdf">PETG Datasheet</a>, you can see there is minimal information about dimensional accuracy but it does say PETG is has stable dimensions which makes me think filaments that are harder to print with will have more issues and error will be harder to fully and predictably account for. From what I read in a Protolabs article, higher temperature filaments are at higher risk of warping, "Thermoplastics that require a higher print temperature are more at risk. Adding a radius on the bottom edge in contact with the build plate or a brim is recommended. Shrinkage usually occurs in the 0.2 - 1% range depending on the material." FDM is also one of the least accurate of 3d printing techniques with many resin printers being able to achieve finer details (lasers and LEDs are a lot easier to position than an extruder).
 
 ## Lessons Learned
 
@@ -48,6 +48,5 @@ The printer was not quite as accurate as I was expecting however it is within a 
 
 ## Sources
 
-https://after-support.flashforge.jp/uploads/datasheet/tds/PETG_TDS_EN.pdf
-https://www.hubs.com/knowledge-base/dimensional-accuracy-3d-printed-parts/
-
+Source: <a href="https://after-support.flashforge.jp/uploads/datasheet/tds/PETG_TDS_EN.pdf">PETG Datasheet</a>
+Source: <a href="https://www.hubs.com/knowledge-base/dimensional-accuracy-3d-printed-parts/">Protolabs 3D Print Dimensional Accuracy</a>
