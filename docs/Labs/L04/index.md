@@ -28,7 +28,7 @@ Once printed, the part was ready to test. The nubs measured as follows:
 - .175 in measured as .165 in
 - .125 in measured as .115 in
 
-the error was consistent across the range at .011 to .009 in of error. I want to say this is due to shrinkage as the part cools but I am unsure as the bigger nubs would have shrunk the same amount as the smaller nubs. Regardless, for PETG, you can assume this printer will have a outer diameter error of around .010 inches.
+the error was consistent across the range at .011 to .009 in of error. I want to say this is due to shrinkage as the part cools but I am unsure as the bigger nubs would have shrunk the same amount as the smaller nubs. Regardless, for PETG, you can assume this printer will have a outer diameter error of around .010 inches. looking at the datasheet https://after-support.flashforge.jp/uploads/datasheet/tds/PETG_TDS_EN.pdf, you can see there is minimal information about dimensional accuracy but it does say PETG is has stable dimensions which makes me think filaments that are harder to print with will have more issues and error will be harder to fully and predictably account for.
 
 ## Lessons Learned
 
