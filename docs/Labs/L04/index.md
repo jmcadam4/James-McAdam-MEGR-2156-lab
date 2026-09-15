@@ -9,13 +9,13 @@ Every manufacturing process has physical limits: minimum wall thickness, maximum
 Although this is the first time your design does not have geometric limits, be cognizant of time on the machine. We are limited on machines, therefore time on machine is precious to all students. Print time may not exceed one hour per artifact. Lab access is available 24 hours a day."
 
 
-## Analyze
+## Document
 
 The parameter I decided to test was the tolerance of extruded members. I made a part very similar to the tolerance gauge test that was shown in the examples. I have calipers in inches so I made the posts .125 in, .175 in, .225 in, .25 in, .3 in, and .35 inches. I kept two walls and made the infill a gyroid pattern, although strength matters very little for this part. I think tolerances will be within a thousandth of an inch, the layer width is .45 mm or 0.0177 in and it has some control over where the center of that lands. There are small amounts of error from the linear actuator and stepper motor as well as from bending of the chassis but it's all minimal. Shrinkage of material is also something to note, as the filament cools it doesn't maintain the same dimensions, I would assume this is factored into the slice but I can not say that with certainty.
 
+## Preprocessor
+
 When slicing it, I went with 3 walls, 25 percent gyroid infill, and .2 layer height at "balanced" speed. I tried to leave the settings in a state that would be typical when making this part to give a good baseline for future prints. The gyroid infill is the strongest when you don't know what forces an object will be introduced to and 25 percent is low but plenty when the infill is only covering a few millimeters of height. I did three walls to make sure the outermost one had good support and my calipers weren't going to push them in and give a poor reading. The .2 layer height at medium speed allowed for a quick print with dimensions I am looking at being stable still. The parts also had flat bottoms which allowed us to not use supports and have a predefined print orientation. Along these same lines of designing with a 3d print in mind, we made sure the scale was correct when exporting and thus didn't need to rescale in the slicer.
-
-
 
 ## Results
 
