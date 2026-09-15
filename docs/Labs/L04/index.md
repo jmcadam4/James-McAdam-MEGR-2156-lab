@@ -29,8 +29,10 @@ Once printed, the part was ready to test. The nubs measured as follows:
 - .125 in measured as .115 in
 
 the error was consistent across the range at .011 to .009 in of error. I want to say this is due to shrinkage as the part cools but I am unsure as the bigger nubs would have shrunk the same amount as the smaller nubs. Regardless, for PETG, you can assume this printer will have a outer diameter error of around .010 inches.
-## Decide
 
+## Lessons Learned
+
+The printer was not quite as accurate as I was expecting however it is within a hundredth of an inch or a quarter of a millimeter. I also learned that error is consistent, but present. This means it can be designed around to achieve an error of +- .001 in from my testing. Knowing typical dimensional accuracy issues per the filament before designing would help you achieve much tighter tolerances and I would be able to get better performing systems when multiple pieces are coming together. 
 
 ## Communicate
 
