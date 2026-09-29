@@ -106,12 +106,6 @@ I was not super impressed with the print quality, I had a partial clog in my noz
 
 ## Fit
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:stretch; margin:1em 0;">
-  <img src="IMG_fit_1.jpg" alt="board going in" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="IMG_fit_2.jpg" alt="board snapped in" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="IMG_fit_3.jpg" alt="ports lined up" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-</div>
-
 the first attempt was far too loose, the center of the board wasn't the center of the mounting because the ports are offset and my first iteration didn't account for this. My second print was slightly loose as well but much better. I tried to give .2 mm of tolerance for the snap fit so .3 mm of the .5 mm clip were used however this was a bit off still. For the third print I cut it down to an exact size and it fit much better.
 
 ## Lessons Learned
