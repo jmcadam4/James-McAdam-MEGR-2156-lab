@@ -96,12 +96,6 @@ I printed at home on my Bambu Lab P1S since the bigger project this is part of w
   Your browser doesn't support HTML5 video.
 </video>
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:stretch; margin:1em 0;">
-  <img src="IMG_print_1.jpg" alt="first layer" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="IMG_print_2.jpg" alt="finished print" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-  <img src="IMG_print_3.jpg" alt="supports removed" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
-</div>
-
 I was not super impressed with the print quality, I had a partial clog in my nozzle which left some to be desired in the density. I printed again at the school on the Prusa to avoid this and it turned out much better.
 
 ## Fit
