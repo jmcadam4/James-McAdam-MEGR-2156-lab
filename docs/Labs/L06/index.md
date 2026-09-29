@@ -19,7 +19,7 @@ Download: <a href="https://cad.onshape.com/documents/e167fbfaca504816960d2427/w/
   <img src="IMG_sketch.jpg" alt="hand sketch" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-I wanted to make a case for my raspberry pi 4b so pins wouldn't get bent while it's not in use. I measured my pi with in calipers however figured I could find more accurate and usable measurements in mm with a CAD file so I got one from <a href="https://grabcad.com/library/raspberry-pi-4-model-b-1">grabCAD</a>. The board measured 3.346 by 2.205 in (85 by 56 mm) which matched the model, so I used the model for the port locations. The features I mated to are the board edge and the USB/ethernet stack.
+I wanted to make a case for my raspberry pi 4b so pins wouldn't get bent while it's not in use. I measured my pi with inch calipers however figured I could find more accurate and usable measurements in mm with a CAD file so I got one from <a href="https://grabcad.com/library/raspberry-pi-4-model-b-1">grabCAD</a>. The board measured 3.346 by 2.205 in (85 by 56 mm) which matched the model, so I used the model for the port locations. The features I mated to are the board edge and the USB/ethernet stack.
 
 ## Design
 
@@ -30,7 +30,7 @@ I wanted to make a case for my raspberry pi 4b so pins wouldn't get bent while i
   <img src="onshape_assembly.jpg" alt="Case + Pi assembly" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-Made in Onshape, 15 features, all sketches, extrudes, and chamfers. Sketch 1 is a 100 by 70 rectangle offset 5 mm for the walls with four pads in the corners where the mounting holes are. Only three dimensions in it, the rest is constraints (coincident, parallel, and offset) so the cavity follows the wall thickness. I put the pi in an assembly with the case and projected the port faces and the board edge straight off the model for Sketch 2 and Sketch 4, so the openings and the groove are exactly where the board is.
+I made it in Onshape just using sketches, extrusions, and some chamfers. Sketch 1 is a 100 by 70 rectangle for the overall case dimensions. I offset by 5 mm for the walls with four pads in the corners where the mounting holes are. I only used threee dimensions in it, the rest is constraints so the cavity follows the wall thickness. I put the pi in an assembly with the case and projected the port faces and the board edge straight off the model for Sketch 2 and Sketch 4, so the openings and the groove are exactly where the board is.
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="fig_snap_lip_section.png" alt="section through the snap lip" style="flex:1 1 0; min-width:0; height:320px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -55,7 +55,7 @@ The snap is on the SD card end. The board edge drops into a .5 mm groove with a 
 
 Two values changed while modeling: the SD end wall started at 25 mm and got cut to 10 once I realized the board couldn't get over it, and the groove got an extra 1 mm of height plus the chamfer so the board could enter at an angle.
 
-Allowances: 2 mm per side to the walls since they don't locate the board (L04 showed about .25 mm of printer error). The groove is board thickness at the back and opens up above it, so a tight print rides the ramp instead of jamming. .5 mm of hook is small on purpose because a 5 mm lip is stiff. The tooth sits .1 to .3 mm over the USB housing, a vertical gap so the error is about one layer.
+Allowances: 2 mm per side to the walls since they don't locate the board (L04 showed about .25 mm of printer error). The groove is board thickness at the back and opens up above it, so a tight print rides the ramp instead of jamming. .5 mm of hook is small on purpose because a 5 mm lip is stiff. The tooth sits .1 to .3 mm over the USB housing, a vertical gap so the error is about one layer. I found that the 100 mm overall was just a touch too large, reprinted with the dimension at 98.7 mm and it was still a touch too loose so I did a final print at 98.5 mm giving no tolerance so it is a secure fit.
 
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="cad_iso_ports.jpg" alt="final case" style="flex:1 1 0; min-width:0; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
@@ -75,15 +75,15 @@ Exported from Onshape as an STL in mm. 100 by 70 by 25 mm.
   <img src="slicer_support.png" alt="tree supports" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-Printed at home on my Bambu Lab P1S (256 by 256 by 256 mm build volume, this part uses about a tenth of it) since the bigger project this is part of will print on the same machine. Open side up with the frame on the plate, the biggest flat surface, so all the walls print as vertical perimeters. Tree supports (auto, 30 degree threshold) only for the tops of the port openings and under the catch tab.
+I printed at home on my Bambu Lab P1S since the bigger project this is part of will print at home as well and I want tolerances to be consistent. Open side up with the frame on the plate, the biggest flat surface, so all the walls print as vertical perimeters. Tree supports (auto, 30 degree threshold) only for the tops of the port openings and under the catch tab.
 
 - .16 mm layers, .2 mm first layer, 156 layers total. The hook is .5 mm and the tooth is 1 mm so I wanted enough layers to draw them.
 - 4 walls at .42/.45 mm line width, about 3.5 mm of the 5 mm wall is solid perimeter and the thin features are all perimeter. Walls are worth more than infill for strength.
-- 15 percent grid infill, there's barely any core left after 4 walls.
+- 15 percent grid infill, there's barely support after 4 walls.
 - About 50 percent speed (100 outer wall, 200 inner, 35 bridge) for the bridges over the ports and the tooth.
 - .4 mm nozzle.
 
-32.33 g of filament (1.53 g of that support), 1 hour 19 minutes, 65 cents.
+32.33 g of filament (1.53 g of that support), 1 hour 19 minute print at my lower speeds.
 
 ## Print
 
@@ -102,7 +102,7 @@ Printed at home on my Bambu Lab P1S (256 by 256 by 256 mm build volume, this par
   <img src="IMG_print_3.jpg" alt="supports removed" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-> **James:** one or two sentences, how it printed and what you removed the supports with.
+I was not super impressed with the print quality, I had a partial clog in my nozzle which left some to be desired in the density. I printed again at the school on the Prusa to avoid this and it turned out much better.
 
 ## Fit
 
@@ -112,11 +112,11 @@ Printed at home on my Bambu Lab P1S (256 by 256 by 256 mm build volume, this par
   <img src="IMG_fit_3.jpg" alt="ports lined up" style="flex:1 1 0; min-width:160px; height:280px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-> **James:** did it fit, and if not what changed.
+the first attempt was far too loose, the center of the board wasn't the center of the mounting because the ports are offset and my first iteration didn't account for this. My second print was slightly loose as well but much better. I tried to give .2 mm of tolerance for the snap fit so .3 mm of the .5 mm clip were used however this was a bit off still. For the third print I cut it down to an exact size and it fit much better.
 
 ## Lessons Learned
 
-Projecting the ports and board edge off the pi model meant everything landed in the right spot first try, but the openings are jack size and not plug size, so for the bigger project they need clearance for the plug body. The 5 mm lip is also stiffer than I expected even with the relief slots, next time I'd thin it above the groove.
+Projecting the ports and board edge off the pi model meant everything landed in the right spot first try, but the openings are jack size and not plug size, so for the bigger project they need clearance for the plug body. The 5 mm lip is also stiffer than I expected even with the slots seperating it from the other walls., next time I'd thin it out above the groove.
 
 ## Sources
 
