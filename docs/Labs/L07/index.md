@@ -23,6 +23,28 @@ I wanted to make a mechanism similar to patent one, and while it's poor practice
 
 The design process wasn't particularly hard for this part, it just included a bit of trial and error. My first attempt was quite cumbersome and I couldn't understand why I needed to do some things. I realized when the center joints of the long members didn't align that I had messed up the hole orientation. When making holes and pins I had used a plane normal to the tip of the member rather than tangent to the point where the hole was. This gave me cumulative error that increased at each joint. This misalignment also made me have to hollow out members to some degree in order to avoid overlapping. Making members thinner helped with this but it was ultimately when I fixed the major mistake that these issues were resolved. I also decided to make the print time a lot quicker by shrinking members and getting rid of the base, it would have been hard to fit all objects on one print bet without doing so and would have required the member attached to the base to be printed upright which more than doubles print time with supports accounted for. The remote center of motion was 100 mm from the circumference on which the point rotates around.
 
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Screenshot 2026-10-06 113507.png" alt="first design with the base" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-10-06 113528.png" alt="first design, misaligned pin hole" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Screenshot 2026-10-06 155220.png" alt="new design assembly, flat" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-10-06 155229.png" alt="new design assembly, iso view" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="linkage_motion.gif" alt="new design moving in the assembly" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Screenshot 2026-10-06 155532.png" alt="member cross section sketch" style="flex:1 1 0; min-width:0; height:260px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-10-06 155545.png" alt="revolving the cross section into the member" style="flex:1 1 0; min-width:0; height:260px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-10-06 155622.png" alt="pin hole sketch" style="flex:1 1 0; min-width:0; height:260px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Screenshot 2026-10-06 155636.png" alt="extruding the pin hole through the member" style="flex:1 1 0; min-width:0; height:260px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-10-06 155647.png" alt="finished member with pin holes" style="flex:1 1 0; min-width:0; height:260px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
 Some shortcomings of this design were the pins and the tolerances. I made pins that screwed together and could be printed, which in application is not ideal and bolts would be a better alternative. I didn't want to spend money if I could avoid it so for the case of the assignment I would say it works however it is worth noting. Another shortcoming is the curved nature of the parts. I think the inventors behind the first patent I talked about were onto something with their straight members. These are easier to machine or manufacture and will still supply ample, possibly better, performance. I think they would also give more tolerance between members while keeping tolerances at the joints tight. There is a lot of optimization that could be done but I think my design is a really cool proof of concept to learn about this means of controlling motion. 
 
 
