@@ -8,9 +8,16 @@ The first patent I found was US 12,485,531 B2. This patent outlined a mechanism 
 
 The second patent I found was US 12,496,157 B2 which is an intuitive robotics patent laying the framework for one of their robotic arms. The point of this patent was to provide the same motion while also allowing for a much larger variety outside of it. This system is very similar to what one would typically think of as a 6 axis robotic arm. This technology has enhanced the precision and reliability of surgery as well as access with the advent of remote surgery. Especially in that last case, it is important that the surgeon has all of the access and capabilities they would have on site which includes a massive variety of angles and positions they can approach in. The first patent technology is useful for a limited use case with reliable motion and relatively low costs, this one is useful for much more extensive criteria with less budgetary constraints. This works well in automation where one product from a robotics company can do many jobs across various assembly lines as well as surgical robotics as stated previously.  
 
+Sources: 
+
 ## Design
 
-| Part 1 |
+| Part Name | Function | Printed or Purchased |
+| --- | --- | --- |
+| Big r Short Member | Rotating Member | Printed |
+| Little r Short Member | Rotating Member | Printed |
+| Big r Long Member | Reacting Member with Cross | Printed |
+| Little r Long Member | Reacting Member With Cross | Printed |
 
 I wanted to make a mechanism similar to patent one, and while it's poor practice to look at patents for inspiration when designing a not super unique part I found it fascinating and doubt my educational endeavor would upset anyone. I wanted to make a mechanism like this because I was curious about the applications in robotics of linkage mechanisms like this. I was also interested in designing another four bar linkage however I had done that before and wanted to switch it up. I have also been working on a 6 axis robotic arm in my free time and while I don't have
 
