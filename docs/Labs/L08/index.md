@@ -24,6 +24,14 @@ I printed this part with low infill but 4 walls. I want it to be strong but use 
   <img src="Screenshot 2026-10-20 105319.png" alt="slicer settings: 0.25 mm layer height and 4 perimeters" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
+<video
+  src="print_video.mp4"
+  controls muted loop playsinline
+  preload="metadata"
+  style="display:block; max-width:100%; max-height:600px; margin:1em auto; border-radius:4px;">
+  Your browser doesn't support HTML5 video.
+</video>
+
 ## Lessons learned
 
 Fail fast is the biggest thing, I "wasted" a lot of time working through a very complex design for a wrist mechanism that did not agree with my finances or timeline and was thus left with very little when it came to the last few days to do this lab. I still thought of something that would solve a real issue but it is not nearly as much of a portfolio piece as I would have wanted. I still intent to complete the wrist mechanism but my time should have been allocated better.
