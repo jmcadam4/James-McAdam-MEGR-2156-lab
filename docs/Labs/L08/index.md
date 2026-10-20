@@ -23,6 +23,8 @@ The other project I have been working on in hopes of getting done in time for th
 
 I printed this part with low infill but 4 walls. I want it to be strong but use minimal filament as it is not going to see very diverse stresses. I set the layer height to .25 mm, up from the .2 that is standard as there is no detail needed along layer lines as a quicker print time would be preferable. I duplicated it to get four parts and sliced. It is a super simple part that doesn't need any crazy settings but with these the print time is just a touch over 30 minutes.
 
+I tried to use printer 14 however it was having issues extruding predictably so I switched to printer 
+
 <div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
   <img src="Screenshot 2026-10-20 105310.png" alt="four cable organizers sliced in PrusaSlicer on the Prusa CORE One" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
   <img src="Screenshot 2026-10-20 105319.png" alt="slicer settings: 0.25 mm layer height and 4 perimeters" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
