@@ -27,7 +27,7 @@ While trying to design the test piece, we wanted to make as many dimensions as p
 
 ### Control Factors
 
-- Slot width of 3 mm (material thickness) plus clearance
+- Slot width of 2.5 mm plus clearance
 - Max ring diameter of 165 mm to fit two sets on a 12 x 12 sheet
 - 2D distance between inner and outer ring: 1.5 mm
 - Height of the "shade" = 150 mm (laser cut parts only, excluding the 3d printed base)
@@ -58,7 +58,15 @@ While trying to design the test piece, we wanted to make as many dimensions as p
 | UprightDi | 1.575 in (40) | mm | Chosen | Inner diameter the uprights wrap around |
 | x_ring / y_ring | 3.445, 8.555 | in | Chosen | Ring centers on the 12 x 12 sheet |
 
-<!-- TODO: add a before/after screenshot of changing the thickness variable and the model regenerating (rubric: parametric proof). -->
+<video
+  src="variable_change.mp4"
+  controls muted loop playsinline
+  preload="metadata"
+  style="display:block; max-width:100%; max-height:600px; margin:1em auto; border-radius:4px;">
+  Your browser doesn't support HTML5 video.
+</video>
+
+Changing RingT in the variable table regenerates the test sheet: the inner diameter of every ring updates, and the nested rings resize with it so they still fit inside each other.
 
 ### Engineered Allowances
 
@@ -82,7 +90,7 @@ Comparing laser cutting machines to FDM printers and CNC routers, it becomes app
   <img src="test_coupons.jpg" alt="fit coupons with slots from 2.5 to 3.1 mm next to the square kerf coupon" style="flex:1 1 0; min-width:0; height:400px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
 </div>
 
-We cut three fit coupons with labeled slots stepping by 0.1 mm from 2.5 mm up to 3.1 mm, along with the square kerf coupon on the right.
+Our first fit coupon had slots from 2.8 to 3.1 mm, and every one of them was too loose. Since our kerf measurement differed between X and Y, we then cut two coupons with slots from 2.5 to 2.8 mm, one laid horizontally on the bed and one laid vertically. The 2.5 mm slot felt quite good in both and we were happy with it, so that became our slot width. The square kerf coupon is on the right.
 
 **Material thickness**
 
@@ -99,7 +107,7 @@ We cut three fit coupons with labeled slots stepping by 0.1 mm from 2.5 mm up to
 
 The kerf was noticeably larger in Y than in X. Averaging all six measurements gives a kerf of 0.15 mm. Both directions are small enough that the softness of the balsa absorbs the difference.
 
-<!-- TODO: record the kerf square size D and how each fit coupon slot felt (tight/target/loose). -->
+<!-- TODO: record the kerf square size D. -->
 
 ### Laser Process Record
 
@@ -142,7 +150,13 @@ The material was thin enough that we couldn't see the taper from the laser focus
 
 ### Process Log
 
-The cut settings for this project are logged in the [Laser Process Record](#laser-process-record) above. This activity took me about 10 hours from start to finish.
+| Date and time | Time spent | Step | What happened | Decision or change made |
+|---|---|---|---|---|
+| Fri 10/23 | 2 hr | Design | Made the test CAD in Onshape, set up the global variables and test sheet | Drove the ring and slot dimensions off a handful of variables |
+| Sun 10/25 | 1.5 hr | Design | Worked out the math for the uprights | Kept the parametric math for the final upright geometry |
+| Mon 10/26 | 3.5 hr | Manufacturing, Lessons Learned | Measured the sheet and kerf, cut the fit coupons, ran the final cut and did the writeup | 2.8–3.1 mm slots were too loose, so we tested 2.5 mm in both directions and went with 2.5 mm |
+
+Total time: 7 hours. The cut settings are in the [Laser Process Record](#laser-process-record) above.
 
 ### Resources Used
 
