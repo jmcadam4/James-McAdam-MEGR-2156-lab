@@ -14,7 +14,11 @@ The two parts together could not exceed 20 mL of resin including supports, and t
 
 For a pin and hole with a nominal diameter of 10 mm, the RC 2 tolerances should be within 0.000 to +0.011 mm for the hole and −0.006 to −0.014 mm for the shaft. That works out to a clearance of somewhere between 0.006 and 0.025 mm, which is far tighter than an SLA printer can reliably hold.
 
-<!-- TODO: add hand sketch of both parts showing the RC 2 controlled dimensions. -->
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="L10Sketch.jpg" alt="hand sketch of the shaft and hole with the RC 2 controlled diameters marked" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+The sketch shows the two features the RC 2 fit controls: the shaft diameter on the body and the hole diameter in the head.
 
 ### Where RC 2 Fits Are Used
 
@@ -33,11 +37,18 @@ Most SLA prints shrink between 0.5% and 1.5%, however Formlabs printers and PreF
 
 The head (Part A) holds the hole feature on its underside and the body (Part B) has the pin on its back. The pin has a small chamfer on the top edge to help it lead into the hole.
 
-<!-- TODO: add a screenshot of the sketch with the pin and hole dimensions shown. -->
+Download: <a href="Head.step">Head.step</a> | <a href="Body.step">Body.step</a>
+
+<div style="display:flex; gap:12px; align-items:stretch; margin:1em 0;">
+  <img src="Screenshot 2026-11-03 104159.png" alt="head sketch with the 0.398 in hole dimensioned" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+  <img src="Screenshot 2026-11-03 104216.png" alt="body sketch with the 0.386 in pin dimensioned" style="flex:1 1 0; min-width:0; height:300px; object-fit:contain; background:#f5f5f5; border-radius:4px;">
+</div>
+
+The hole in the head is drawn at 0.398 in (10.11 mm) and the pin on the body at 0.386 in (9.80 mm), which gives 0.012 in (0.30 mm) of diametral clearance around the 10 mm nominal.
 
 **What nominal size did you select?** 10 mm.
 
-**What tolerances did you apply?** After testing with a lot of my classmates, we found that 0.3 mm was roughly the point at which a comfortable fit worked. This is not technically an RC 2 fit by the specs given in the book, but it is what achieved the same function given our manufacturing method.
+**What tolerances did you apply?** After testing with a lot of my classmates, we found that 0.3 mm of diametral clearance was roughly the point at which a comfortable fit worked. This is not technically an RC 2 fit by the specs given in the book, but it is what achieved the same function given our manufacturing method.
 
 **How did you determine if the design would achieve the RC 2 fit?** I needed the pin and hole to be as large as they could be given the design intent and the 20 mL material limit. There was a fine margin to hit with the accuracy of this machine, but I felt confident that with the right tolerancing and testing I could get very close to a proper RC 2 class fit.
 
@@ -61,6 +72,8 @@ The head (Part A) holds the hole feature on its underside and the body (Part B) 
 
 **Build orientation:** Both the pin and the hole needed to be printed vertically to make sure they came out perfectly circular, since that is the most important feature on the part. With that in mind I just chose the flattest surface to sit against the build plate.
 
+**Clearance for shrinkage:** Clear resin shrinks 0.5% to 1.5% during curing, or about 0.05 to 0.15 mm on a 10 mm feature. Since the pin and the hole shrink by roughly the same percentage, the 0.30 mm clearance only drops by a few thousandths of a millimeter, so I didn't add any extra allowance on top of PreForm's compensation.
+
 **Layout:** Jack Brannon and I printed together on the same build plate.
 
 **Supports and wall thickness:** I used the default support settings. Even though I did some research, it seemed like the values that could predictably be changed were already set up in the best possible way for this model. I hollowed out the head to save material and left a wall thickness of 2 mm, then added a vent hole to get the excess resin out.
@@ -78,15 +91,15 @@ The head (Part A) holds the hole feature on its underside and the body (Part B) 
 
 The finish is quite incredible for a 3d print. You can really see the difference with the clear resin, as clear FDM prints come out very hazy due to the layer lines. Because the resin is clear, you can also see the hollowed cavity inside the head and the vent hole that drained it.
 
-<!-- TODO: record any dimensional deviations after curing or sanding. -->
+I didn't measure the parts before curing, because uncured resin is soft enough that the caliper jaws could score the pin or hole and ruin the fit. All measurements were taken after curing, and no sanding was done.
 
 ## Fit Test
 
 | Feature | Design (mm) | Measured (mm) | RC 2 range (mm) |
 |---|---|---|---|
-| Hole diameter | | | 10.000 to 10.011 |
-| Pin diameter | | | 9.986 to 9.994 |
-| Clearance | | | 0.006 to 0.025 |
+| Hole diameter | 10.11 | | 10.000 to 10.011 |
+| Pin diameter | 9.80 | | 9.986 to 9.994 |
+| Clearance | 0.30 | | 0.006 to 0.025 |
 
 <!-- TODO: caliper measurements, comparison to RC 2 range, and whether the head slides on and locates. -->
 
