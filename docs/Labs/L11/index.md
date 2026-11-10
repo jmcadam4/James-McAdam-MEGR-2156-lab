@@ -91,7 +91,7 @@ Download: <a href="L11.stl">L11.stl</a>
 
 - The lead-in was moved from the pin to the plate edge. A chamfered round pin would release just as easily as it engages.
 - The plate height was dropped to 12 mm so the rounded plate ends (r = 6) clear the next link while it rotates. This lowers P to about 13.0 N and the push force to about 27.7 N.
-- The crossbar was raised so the cover hooks catch underneath it at 7 mm.
+- The cover clip was originally designed to snap into the side plates of the link. I changed it to clip onto the crossbar instead, and raised the crossbar so the cover hooks catch underneath it at 7 mm.
 
 ## Preprocessing
 
